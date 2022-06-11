@@ -1,1 +1,18 @@
 <paste log output from Kubernetes-mediated prediction, here>
+NAME       STATUS   ROLES                  AGE   VERSION
+minikube   Ready    control-plane,master   20h   v1.23.3
+pod/udacityproject4 created
+pod/udacityproject4 condition met
+NAME              READY   STATUS    RESTARTS   AGE
+udacityproject4   1/1     Running   0          2s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+
+In second terminal : ./make_prediction.sh
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
